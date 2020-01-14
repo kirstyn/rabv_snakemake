@@ -1,6 +1,8 @@
-# artic-noro
+# rabv_snakemake
 
-Resources to aid in sequencing norovirus in a clinical or field setting using nanopore technology. The bioinformatic pipeline was developed using [snakemake](https://snakemake.readthedocs.io/en/stable/). 
+Resources to aid in sequencing rabies virus in a clinical or field setting using nanopore technology. The bioinformatic pipeline was developed using [snakemake](https://snakemake.readthedocs.io/en/stable/). 
+
+## Norovirus pipeline details (to be modified as rabies pipeline develops)
 
 ## Table of contents
 
@@ -12,19 +14,8 @@ Resources to aid in sequencing norovirus in a clinical or field setting using na
   * [References](#references)
 
 ## background
-
-Norovirus is a leading cause of acute gastroenteritis worldwide, directly costing health-care systems $4.2 billion annually (Bartsch et al., 2016). Infections are normally self-limiting, with symptoms resolving within 2-4 days, however viral shedding and infectivity may continue for weeks following ceasing of symptoms. Complications and chronic infection are common in the young, elderly and immunocompromised.
-
-Current surveillance methods are qualitative and do not provide genetic-level information about the virus. The resolution provided by genomic data will describe the variety of strains circulating and whether we have a single outbreak or multiple outbreaks. It may identify infection sources and will complement epidemiological data to help infer transmission. Implementing routine nanopore sequencing in a clinical setting will minimise time-to decision, providing actionable information regarding circulating strains and nosocomial transmission within hours.
-
-We aim to produce an end-to-end system that can provide real-time access to genomic information within hours, informing infection-control decision making.
-
-This pipeline is developed as part of a 'best-practices' protocol for clinical nanopore sequencing of norovirus. The complementary upstream extraction, amplification, library prep and sequencing protocol can be found [here](protocol/Norovirus-2kb-Nanopore-sequencing-protocol.md) (Luke Meredith). A tiled amplicon approach is currently being tested by Paola Resende with 2kb primers developed using [Primal Scheme](http://primal.zibraproject.org/) (Luke Meredith). Amplicons produced by the scheme, spanning the genome, are shown in the figure below. To cover the diversity of norovirus, multiple primer schemes were created with different sets of reference sequences from GenBank. 
-
+example code of how to insert image:
 <img src="https://github.com/aineniamh/artic-noro/blob/master/primer-schemes/noro2kb/V2/noro2kb.amplicons.png">
-
-The respective lengths of each amplicon in the primer scheme are shown below. The gold dots indicate the expected read lengths including the adaptor and barcodes, the dark blue dots indicate the actual length of the amplicon sequence.
-<img src="https://github.com/aineniamh/artic-noro/blob/master/primer-schemes/noro2kb/V2/noro2kb.amplicon_lengths.png">
 
 ## pipeline
 
