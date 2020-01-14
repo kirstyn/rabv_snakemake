@@ -1,6 +1,6 @@
 # rabv_snakemake
 
-Resources to aid in sequencing rabies virus in a clinical or field setting using nanopore technology. The bioinformatic pipeline was developed using [snakemake](https://snakemake.readthedocs.io/en/stable/). 
+Resources to aid in sequencing rabies virus in a clinical or field setting using nanopore technology. The bioinformatic pipeline was forked from [artic-noro](https://github.com/aineniamh/artic-noro) and modified.
 
 ## Norovirus pipeline details (to be modified as rabies pipeline develops)
 
